@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="red_btr"
+        parent="Widget.AppCompat.Button">
+        <item name="background">@color/purple_600</item>
+        <item name="colorPrimary">@color/purple_600</item>
+        <item name="cornerRadius">12dp</item>
+    </style>
+
+    <style name="red_blac"
+        parent="Widget.AppCompat.Button">
+        <item name="background">@color/pricolblac</item>
+        <item name="colorPrimary">@color/pricolblac</item>
+        <item name="cornerRadius">12dp</item>
+    </style>
+    <dimen name="font_size">25sp</dimen>
+    <dimen name="font_siz2">20sp</dimen>
+    <string name="format_text"><b>Электронная почта</b></string>
+    <string name="format_text2"><b>Пароль</b></string>
+</resources>
