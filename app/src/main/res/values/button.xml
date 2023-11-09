@@ -7,14 +7,23 @@
         <item name="cornerRadius">12dp</item>
     </style>
 
-    <style name="red_blac"
+    <style name="blue_btr"
+        parent="Widget.AppCompat.Button">
+        <item name="background">@color/blue</item>
+        <item name="colorPrimary">@color/blue</item>
+        <item name="cornerRadius">12dp</item>
+    </style>
+    <style name="black_btr"
         parent="Widget.AppCompat.Button">
         <item name="background">@color/pricolblac</item>
         <item name="colorPrimary">@color/pricolblac</item>
         <item name="cornerRadius">12dp</item>
     </style>
+
     <dimen name="font_size">25sp</dimen>
     <dimen name="font_siz2">20sp</dimen>
+    <dimen name="font_siz15">15sp</dimen>
     <string name="format_text"><b>Электронная почта</b></string>
     <string name="format_text2"><b>Пароль</b></string>
+    <string name="format_text3"><b>Имя пользователя</b></string>
 </resources>

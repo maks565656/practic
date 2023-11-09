@@ -44,23 +44,7 @@
         android:textSize="@dimen/font_siz2"
         android:text="@string/format_text"
         android:layout_marginTop="10dp"/>
-    <EditText
-        android:id="@+id/editTextTextPassword"
-        android:layout_width="351dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="101dp"
-        android:layout_marginEnd="101dp"
-        android:inputType="textPassword" />
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textColor="@android:color/darker_gray"
-        android:textSize="@dimen/font_siz2"
-        android:text="@string/format_text2" />
+
     <EditText
         android:id="@+id/editTextTextEmailAddress"
         android:layout_width="351dp"
@@ -71,6 +55,26 @@
         android:layout_marginStart="101dp"
         android:layout_marginEnd="100dp"
         android:inputType="textEmailAddress" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="@dimen/font_siz2"
+        android:text="@string/format_text2" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="351dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="101dp"
+        android:layout_marginEnd="101dp"
+        android:inputType="textPassword" />
+
 </LinearLayout>
 
     <Button
@@ -96,7 +100,7 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         app:cornerRadius="4dp"
-        android:theme="@style/red_blac"
+        android:theme="@style/black_btr"
         android:text="Регистрация"
         android:layout_marginTop="20dp"
         android:layout_gravity="center"

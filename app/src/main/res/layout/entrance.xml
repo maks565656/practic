@@ -164,7 +164,7 @@
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
             app:cornerRadius="4dp"
-            android:theme="@style/red_blac"
+            android:theme="@style/black_btr"
             android:text="Выйти"
             android:layout_marginTop="20dp"
             android:layout_gravity="center"
