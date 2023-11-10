@@ -25,6 +25,10 @@
             android:name=".Autorization"
             android:exported="false" >
         </activity>
+        <activity
+            android:name=".Registration"
+            android:exported="false" >
+        </activity>
 
     </application>
 

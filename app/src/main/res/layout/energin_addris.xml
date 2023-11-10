@@ -50,6 +50,7 @@
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_margin="30dp"
+        android:textColor="@android:color/darker_gray"
         android:background="@drawable/text_linial"
         android:gravity="center_vertical"
         tools:text="Адрес"/>

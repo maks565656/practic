@@ -54,7 +54,8 @@
         android:layout_alignParentBottom="true"
         android:layout_marginStart="101dp"
         android:layout_marginEnd="100dp"
-        android:inputType="textEmailAddress" />
+        android:inputType="textEmailAddress"
+        android:onClick="email" />
 
     <TextView
         android:id="@+id/textView4"
@@ -72,6 +73,7 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="101dp"
+        android:onClick="passvord"
         android:layout_marginEnd="101dp"
         android:inputType="textPassword" />
 
@@ -89,6 +91,7 @@
         android:layout_marginTop="60dp"
         android:theme="@style/red_btr"
         app:cornerRadius="4dp"
+        android:onClick="entra"
         tools:layout_editor_absoluteX="151dp"
         tools:layout_editor_absoluteY="452dp" />
 
@@ -102,6 +105,7 @@
         app:cornerRadius="4dp"
         android:theme="@style/black_btr"
         android:text="Регистрация"
+        android:onClick="registr"
         android:layout_marginTop="20dp"
         android:layout_gravity="center"
         tools:layout_editor_absoluteX="151dp"

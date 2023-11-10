@@ -11,11 +11,14 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        Handler().postDelayed( {
-          val intent = Intent(this@MainActivity, Autorization ::class.java)
-          Autorization(intent)
-          finish()
-        },3000)
+        val timer = object: CountDownTimer(3000, 1000) {
+            override fun onTick(millisUntilFinished: Long) {}
+
+            override fun onFinish() {
+                val intent = Intent(applicationContext, Autorization::class.java)
+                startActivity(intent)
             }
         }
-
+        timer.start()
+    }
+}
