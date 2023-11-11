@@ -17,7 +17,7 @@ class Autorization :  AppCompatActivity(){
             val intent = Intent (this@Autorization, Registration ::class.java)
             startActivity(intent)
             finish()
-
         }
+
     }
 }
