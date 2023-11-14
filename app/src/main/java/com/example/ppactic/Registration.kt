@@ -25,15 +25,20 @@ class Registration : AppCompatActivity() {
            if (email =="" || password == "" || login =="" )
             Toast.makeText(this, "не все поля заполненны", Toast.LENGTH_LONG).show()
             else{
-    val User = User (email, password, login)
+    val user = User (email, password, login)
     val db = dat (this, null)
-               Toast.makeText(this, "логин $login сохранен", Toast.LENGTH_LONG).show()
-               db.addUser(User)
+               Toast.makeText(this, "аккаунт $login создан", Toast.LENGTH_LONG).show()
+               db.addUser(user)
             emailEditText.text.clear()
                passwordEditText.text.clear()
                editText.text.clear()
            }
         }
+        qoLooperPage = findViewById(R.id.buttonq)
+        qoLooperPage.setOnClickListener{
+            val intent = Intent (this@Registration, Autorization ::class.java)
+            startActivity(intent)
+            finish() }
     }
 
 }

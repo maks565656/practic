@@ -30,6 +30,10 @@
             android:name=".Registration"
             android:exported="false" >
         </activity>
+        <activity
+            android:name=".Creating_code"
+            android:exported="false" >
+        </activity>
 
     </application>
 

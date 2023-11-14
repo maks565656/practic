@@ -33,6 +33,7 @@
     android:layout_height="match_parent"
     android:layout_width="match_parent"
     android:layout_marginTop="200dp"
+    android:gravity="center"
     android:orientation="vertical">
     <TextView
         android:id="@+id/textView6"
@@ -43,7 +44,6 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:gravity="center"
-        android:layout_gravity="center"
         android:text="Добавьте адрес своего дома \n г. Название города, ул. Название улицы, д. \n Номер города" />
 
     <EditText

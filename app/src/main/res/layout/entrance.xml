@@ -27,7 +27,7 @@
             android:layout_marginTop="15dp"
             android:layout_gravity="center"
             android:text="Умный Дом"/>
-        <LinearLayout
+        <TableRow
             android:id="@+id/bottonc"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -58,7 +58,7 @@
                 android:layout_height="15dp"
                 android:layout_marginEnd="10dp"
                 app:srcCompat="@drawable/botton" />
-        </LinearLayout>
+        </TableRow>
         <TableLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
