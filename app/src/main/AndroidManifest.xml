@@ -34,6 +34,22 @@
             android:name=".Creating_code"
             android:exported="false" >
         </activity>
+        <activity
+            android:name=".entrance"
+            android:exported="false" >
+        </activity>
+        <activity
+            android:name=".Addindg_co"
+            android:exported="false" >
+        </activity>
+        <activity
+            android:name=".Energin_addris"
+            android:exported="false" >
+        </activity>
+        <activity
+            android:name=".Home_page"
+            android:exported="false" >
+        </activity>
 
     </application>
 

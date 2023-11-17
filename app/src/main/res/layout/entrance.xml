@@ -73,6 +73,8 @@
                 android:layout_gravity="center">
 
                 <Button
+                    android:id="@+id/button1"
+                    android:onClick="buttonn1"
                     android:layout_width="90dp"
                     android:layout_height="70dp"
                     android:background="@drawable/botton_blac"
@@ -82,6 +84,8 @@
                     android:textColor="@color/black" />
 
                 <Button
+                    android:id="@+id/button2"
+                    android:onClick="buttonn1"
                     android:layout_width="90dp"
                     android:layout_height="70dp"
                     android:background="@drawable/botton_blac"
@@ -91,6 +95,8 @@
                     android:textColor="@color/black" />
 
                 <Button
+                    android:id="@+id/button3"
+                    android:onClick="buttonn1"
                     android:layout_width="90dp"
                     android:layout_height="70dp"
                     android:background="@drawable/botton_blac"
@@ -103,6 +109,8 @@
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content">
                 <Button
+                    android:id="@+id/button4"
+                    android:onClick="buttonn1"
                     android:layout_height="70dp"
                     android:layout_width="90dp"
                     android:text="4"
@@ -111,6 +119,8 @@
                     android:textColor="@color/black"
                     android:background="@drawable/botton_blac"/>
                 <Button
+                    android:id="@+id/button5"
+                    android:onClick="buttonn1"
                     android:layout_height="70dp"
                     android:layout_width="90dp"
                     android:text="5"
@@ -119,6 +129,8 @@
                     android:textColor="@color/black"
                     android:background="@drawable/botton_blac"/>
                 <Button
+                    android:id="@+id/button6"
+                    android:onClick="buttonn1"
                     android:layout_height="70dp"
                     android:layout_width="90dp"
                     android:text="6"
@@ -131,6 +143,8 @@
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content">
                 <Button
+                    android:id="@+id/button7"
+                    android:onClick="buttonn1"
                     android:layout_height="70dp"
                     android:layout_width="90dp"
                     android:text="7"
@@ -139,6 +153,8 @@
                     android:textColor="@color/black"
                     android:background="@drawable/botton_blac"/>
                 <Button
+                    android:id="@+id/button8"
+                    android:onClick="buttonn1"
                     android:layout_height="70dp"
                     android:layout_width="90dp"
                     android:text="8"
@@ -147,6 +163,8 @@
                     android:textColor="@color/black"
                     android:background="@drawable/botton_blac"/>
                 <Button
+                    android:id="@+id/button9"
+                    android:onClick="buttonn1"
                     android:layout_height="70dp"
                     android:layout_width="90dp"
                     android:text="9"
@@ -166,6 +184,7 @@
             app:cornerRadius="4dp"
             android:theme="@style/black_btr"
             android:text="Выйти"
+            android:onClick="dds"
             android:layout_marginTop="20dp"
             android:layout_gravity="center"
             tools:layout_editor_absoluteX="151dp"

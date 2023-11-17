@@ -38,14 +38,14 @@ class Autorization :  AppCompatActivity() {
                     Toast.makeText(this, "пользователь $email авторизован", Toast.LENGTH_LONG).show()
                     emailEditText.text.clear()
                     passwordEditText.text.clear()
-                    qoLooperPage = findViewById(R.id.button1)
-                    qoLooperPage.setOnClickListener {
-                        val intent = Intent(this@Autorization, Creating_code::class.java)
-                        startActivity(intent)
-                        finish()}
+
                 }else{
                     false
-                    Toast.makeText(this, "пользователь $email не авторизован", Toast.LENGTH_LONG).show()
+                    qoLooperPage = findViewById(R.id.button)
+                    qoLooperPage.setOnClickListener {
+                        val intent = Intent(this, entrance::class.java)
+                        startActivity(intent)
+                        finish()}
                 }
 
             }

@@ -6,29 +6,19 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/button5"
-        android:layout_width="218dp"
-        android:layout_height="82dp"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="-217dp"
-        android:layout_marginBottom="232dp"
-        android:layout_toStartOf="@+id/button3"
-        android:background="@drawable/groub" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/button6"
-        android:layout_width="54dp"
+        android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="335dp"
-        android:layout_marginEnd="22dp"
-        android:layout_marginBottom="18dp"
-        android:background="@drawable/pli"/>
+        android:layout_marginEnd="23dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/plr"/>
 
     <LinearLayout
+        android:id="@+id/kaka"
         android:layout_width="40dp"
         android:layout_height="200dp"
         android:layout_alignParentStart="true"
@@ -50,6 +40,7 @@
                 android:layout_weight="1"
                 android:fontFamily="@font/montserrat_700"
                 android:text="Твой дом"
+                android:layout_marginStart="5dp"
                 android:textColor="@android:color/white"
                 android:textSize="@dimen/font_siz2" />
 
@@ -67,6 +58,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:textColor="@android:color/darker_gray"
+            android:layout_marginStart="5dp"
             android:fontFamily="@font/montserrat_700"
             android:textSize="@dimen/font_siz15"
             android:text="Омск" />
@@ -77,6 +69,7 @@
             android:layout_weight="1"
             android:fontFamily="@font/montserrat_700"
             android:text="Комнаты"
+            android:layout_marginStart="5dp"
             android:textColor="@android:color/white"
             android:textSize="@dimen/font_siz2" />
 
@@ -88,25 +81,15 @@
 
     </LinearLayout>
 
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/button3"
-        android:layout_width="218dp"
-        android:layout_height="81dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginTop="33dp"
-        android:layout_marginEnd="100dp"
-        android:layout_marginBottom="417dp"
-        android:background="@drawable/gost" />
 
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/button4"
-        android:layout_width="218dp"
-        android:layout_height="81dp"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="-217dp"
-        android:layout_marginBottom="322dp"
-        android:layout_toStartOf="@+id/button3"
-        android:background="@drawable/cux" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/kaka"
+        android:layout_marginTop="4dp"
+        tools:itemCount="3"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        tools:listitem="@layout/xelper"/>
 
 </RelativeLayout>

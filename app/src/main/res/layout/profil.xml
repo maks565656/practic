@@ -6,35 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <EditText
-        android:id="@+id/editTextTextEmailAddress3"
-        android:layout_width="351dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/qqq"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="103dp"
-        android:layout_marginTop="226dp"
-        android:layout_marginEnd="98dp"
-        android:layout_marginBottom="180dp"
-        android:inputType="textEmailAddress"
-        android:onClick="email" />
 
-    <EditText
-        android:id="@+id/editTextTextEmailAddress2"
-        android:layout_width="351dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/qqq"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="103dp"
-        android:layout_marginTop="129dp"
-        android:layout_marginEnd="98dp"
-        android:layout_marginBottom="277dp"
-        android:inputType="textEmailAddress"
-        android:onClick="email" />
 
     <LinearLayout
         android:id="@+id/qqq"
@@ -84,20 +56,91 @@
             app:srcCompat="@drawable/lic" />
     </LinearLayout>
 
-    <EditText
-        android:id="@+id/editTextTextEmailAddress"
-        android:layout_width="351dp"
+
+    <TableLayout
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/qqq"
+        android:layout_below="@id/qqq"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:gravity="center"
+        android:layout_margin="20dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Имя пользователя"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/grey1"
+            android:textSize="@dimen/font_siz15"/>
+        <EditText
+            android:id="@+id/editTextName"
+            android:layout_width="351dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/qqq"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:inputType="textEmailAddress"
+            android:onClick="name" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Электронная почта"
+            android:textColor="@color/grey1"
+            android:textSize="@dimen/font_siz15"/>
+        <EditText
+            android:id="@+id/editTextTextEmail"
+            android:layout_width="351dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/qqq"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:inputType="textEmailAddress"
+            android:onClick="email" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Адрес"
+            android:textColor="@color/grey1"
+            android:textSize="@dimen/font_siz15"/>
+        <EditText
+            android:id="@+id/editTextTextIp"
+            android:layout_width="351dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/qqq"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:inputType="textEmailAddress"
+            android:onClick="ip" />
+    </TableLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="200dp"
+        android:layout_height="50dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="103dp"
-        android:layout_marginTop="48dp"
-        android:layout_marginEnd="97dp"
-        android:layout_marginBottom="357dp"
-        android:inputType="textEmailAddress"
-        android:onClick="email" />
+        android:layout_gravity="center"
+        android:background="@drawable/button_sav"
+        android:text="Сохранить"
+        android:textColor="@color/white"
+        android:layout_margin="100dp" />
 
-
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="51dp"
+        android:layout_marginEnd="100dp"
+        android:text="выйти"
+        android:textColor="@color/white"
+        android:layout_marginBottom="31dp"
+        android:background="@drawable/button_exit"/>
 </RelativeLayout>

@@ -1,4 +1,5 @@
 package com.example.ppactic
 
-class State {
-}
+class State ( val image: Int,
+        val text: String
+    )
